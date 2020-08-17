@@ -1,0 +1,1 @@
+(P5=>new P5(require("./index.ts")))(require("p5"));
