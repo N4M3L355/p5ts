@@ -1,6 +1,7 @@
+export {};
+
 let P5 = require("p5");
-// @ts-ignore  /* eslint-disable @typescript-eslint/no-unused-vars */
-let { sum, modulo } = require("../library");
+const { sum, modulo } = require("../library");
 
 let main = (p5: any): void => {
   p5.setup = (): void => {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.html",
   "scripts": {
-    "start": "parcel src/*.html --open",
+    "start": "parcel index.html src/*.html --open",
     "build": "parcel build src/**/*.html"
   },
   "dependencies": {

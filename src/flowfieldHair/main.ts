@@ -1,4 +1,5 @@
-// @ts-ignore  /* eslint-disable @typescript-eslint/no-unused-vars */
+export {}
+
 let { sum, modulo, noiseNormalizer, sinCycle } = require("../library");
 
 module.exports = (p5: any): void => {
