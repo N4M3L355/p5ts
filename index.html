@@ -2,11 +2,46 @@
 <head>
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
         }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: initial;
+            bottom: 0;
+            right: 0;
+            top: 0;
+            left: 0;
+            position: fixed;
+            flex-direction: column;
+        }
+
+        .title {
+            position: relative;
+            top: -1vh;
+            font-family: "Playfair Display", sans-serif;
+            font-size: 10vw;
+            font-weight: initial;
+            transform: initial;
+            -webkit-transform: initial;
+            animation: initial;
+            -webkit-animation: initial;
+            text-shadow: initial;
+            margin: 0;
+        }
+
+        body {
+            color: initial;
+            background-color: initial;
+        }
+
+
     </style>
 </head>
 
@@ -16,6 +51,7 @@
 
 </div>
 
-<script></script>
+<script src="./index.ts"></script>
+<div class="container"><h1 class="title" id="meniny">0</h1></div>
 </body>
 </html>

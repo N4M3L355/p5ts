@@ -4,12 +4,11 @@
   "description": "",
   "main": "src/index.html",
   "scripts": {
-    "start": "parcel index.html src/*.html --open",
+    "start": "parcel src/*.html --open",
     "build": "parcel build src/**/*.html"
   },
   "dependencies": {
-    "@types/node": "14.0.27",
-    "p5": "1.1.9"
+    "@types/node": "14.0.27"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
